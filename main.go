@@ -1,9 +1,11 @@
 package main
 
-import "flag"
-import "os"
+import (
+	"flag"
+	"os"
 
-import "./lib"
+	"./lib"
+)
 
 func main() {
 	var isHost bool
